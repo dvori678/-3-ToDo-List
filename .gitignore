@@ -1,0 +1,9 @@
+**/node_modules/
+**/bin/
+**/obj/
+.vs/
+.env
+.env.*
+!.env.example
+TodoApi/appsettings.json
+TodoApi/appsettings.Development.json
