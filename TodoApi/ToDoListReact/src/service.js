@@ -10,7 +10,7 @@ axios.interceptors.response.use(
   }
 );
 
-export default {
+const service= {
   getTasks: async () => {
     const result = await axios.get('/tasks');
     return result.data;
@@ -32,3 +32,5 @@ setCompleted: async (id, isComplete) => {
     return result.data;
   }
 };
+
+export default service;
